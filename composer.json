@@ -1,6 +1,8 @@
 {
     "name": "hallow-tech/short-urls",
     "description": "A Statamic addon for the management of short URLs.",
+    "homepage": "https://github.com/SkHCrusher/statamic-short-urls",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "HallowTech\\ShortUrls\\": "src"
