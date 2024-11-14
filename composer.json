@@ -8,11 +8,6 @@
             "HallowTech\\ShortUrls\\": "src"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "HallowTech\\ShortUrls\\Tests\\": "tests"
-        }
-    },
     "require": {
         "ashallendesign/short-url": "^8.1",
         "statamic/cms": "^5.0"
