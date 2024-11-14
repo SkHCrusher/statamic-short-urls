@@ -22,5 +22,4 @@ composer require hallow-tech/short-urls
 ## ToDos
 
 - write tests
-- publish on Packagist
 - maybe add Bard extension?
