@@ -16,8 +16,6 @@ class ServiceProvider extends AddonServiceProvider
             $command->call('migrate');
         });
 
-        $this->loadViewsFrom(__DIR__.'../resources/views', 'short-urls');
-
         Utility::extend(function () {
             Utility::register('short-urls')
                 ->action([ShortUrlsController::class, 'index'])
